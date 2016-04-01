@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'webfonts';
+    src: url('../fonts/pfdintextcondpro-regular-webfont.eot');
+    src: url('../fonts/pfdintextcondpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/pfdintextcondpro-regular-webfont.woff') format('woff'),
+    url('../fonts/pfdintextcondpro-regular-webfont.ttf') format('truetype'),
+    url('../fonts/pfdintextcondpro-regular-webfont.svg#pf_din_text_cond_proregular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+@media only screen
+and (min-width: 1224px) {
+
+    .feedback.feedback-form {
+        position: relative;
+        padding: 0;
+        margin: 0;
+        font-family: webfonts, Arial, Helvetica;
+    }
+
+    .feedback.feedback-form .alert {
+        display: none;
+    }
+
+    .feedback.feedback-form .panel.panel-default {
+        width: 400px;
+        position: absolute;
+        left: 265px;
+        right: auto;
+        top: 125px;
+    }
+
+    .container-fluid.feedback.feedback-form .top-text {
+        position: absolute;
+        right: auto;
+        top: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .container-fluid.feedback.feedback-form .top-text > span {
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 0 auto;
+        width: 45%;
+        display: block;
+        padding: 10px 20px;
+    }
+
+    .container-fluid.feedback.feedback-form .top-text > span p {
+        margin: 0;
+        font-size: 17px;
+    }
+
+    .feedback.feedback-form .addition-text {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.5);
+        left: -245px;
+        right: auto;
+        top: 200px;
+        padding: 20px 10px 20px 0;
+        font-size: 16px;
+    }
+
+    .feedback.feedback-form ul {
+        list-style-type: square;
+        color: #D9534F;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .feedback.feedback-form ul li span {
+        color: #000;
+    }
+
+    .alert-dismissible .close {
+        right: 0;
+        left: auto;
+    }
+
+    .feedback.feedback-form label,
+    .feedback.feedback-form input {
+        font-size: 17px;
+    }
+}
+.feedback.feedback-form a {
+    width: 100%;
+    background-color: #D9534F;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #C9302C;
+    font-weight: 800;
+}
+
+.feedback.feedback-form a:hover {
+    background-color: #337AB7;
+}
