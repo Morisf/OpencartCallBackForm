@@ -1,5 +1,5 @@
 <?php
-/home/moris/Work/FeedBackForm/catalog/controller/module/feedback.php
+
 class ControllerModuleFeedback extends Controller
 {
     public function index($setting)
